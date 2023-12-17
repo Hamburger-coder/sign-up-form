@@ -5,14 +5,28 @@ body {
 }
 
 #side-bar {
-  flex: 1;
+  background-image: url("https://i.postimg.cc/Vv5h7byn/halie-west-25xggax4b-SA-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
-  flex-direction: column;
+  flex: 1;
+  flex-direction: row;
   height: 100vh;
 }
 
-#form {
-  flex: 3;
+#welcome-div {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.74);
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 15vh;
+}
+
+.joel-h1 {
+  display: flex;
 }
 
 #myImage {
@@ -20,42 +34,39 @@ body {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  position: relative; /* Add position relative to create a stacking context */
 }
 
 h1 {
-  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-family: Norse;
   font-size: 65px;
   margin: 0;
   padding: 10px;
 }
 
-#joel-div {
-  position: absolute;
-  left: 0;
-  top: 0;
-  transform: translate(15vw, 25vh);
-  width: max-content;
-}
-
 @media (max-width: 1400px) {
-  #joel-div {
-    transform: translate(5vw, 25vh);
+  #welcome-div {
+    left: 5vw;
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   h1 {
     font-size: 40px;
-    max-width: 40%; /*Adjust this value as needed*/
+    max-width: 40%;
   }
 }
 
 @media (max-width: 500px) {
   h1 {
     font-size: 20px;
-    max-width: 40%; /*Adjust this value as needed*/
+    max-width: 40%;
   }
+}
+
+#form {
+  flex: 3;
+  padding: 10px;
 }
 
 #welcome-text {

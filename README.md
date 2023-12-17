@@ -24,3 +24,7 @@ https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-
 # Status
 
 This project is still under development.
+
+# Credits
+
+<a href="https://www.flaticon.com/free-icons/robot" title="robot icons">Robot icons created by Freepik - Flaticon</a>
