@@ -11,7 +11,7 @@ body {
   display: flex;
   flex: 1;
   flex-direction: row;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 #welcome-div {
@@ -87,5 +87,17 @@ body {
 .phn-number,
 .password,
 .confirm-password {
+  padding-top: 0;
+}
+
+.inputs > div {
   display: flex;
+  flex-wrap: wrap;
+  column-gap: 84px;
+  row-gap: 18px;
+  margin-bottom: 18px;
+}
+
+.inputs label {
+  display: block;
 }
