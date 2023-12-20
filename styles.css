@@ -100,4 +100,46 @@ body {
 
 .inputs label {
   display: block;
+  padding-bottom: 5px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  background-color: #596d48;
+  color: white;
+}
+
+.button:hover {
+  background-color: #4d613f;
+}
+
+/* unvisited link */
+a:link {
+  color: rgb(0, 0, 0);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(0, 0, 0);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(34, 34, 34);
+}
+
+/* selected link */
+a:active {
+  color: rgb(0, 0, 0);
+}
+
+a {
+  text-decoration: none;
 }

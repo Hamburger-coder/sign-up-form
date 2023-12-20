@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Valhalla Gates</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
@@ -19,7 +19,10 @@
     </section>
     <section id="section2">
       <div id="welcome-text">
-        <h1>Welcome to my fake website!</h1>
+        <h1>
+          Welcome to
+          <a href="https://en.wikipedia.org/wiki/Valhalla">Valhalla's Gates!</a>
+        </h1>
         <p>
           This is not a real online service! You know you need something like
           this in your life to help you realize that you need something like
@@ -34,29 +37,59 @@
           <div>
             <div class="frst-name">
               <label for="first-nm">First Name</label>
-              <input type="text" id="first-nm" name="first-name" />
+              <input
+                type="text"
+                id="first-nm"
+                name="first-name"
+                placeholder="John"
+                required
+              />
             </div>
             <div class="last-name">
               <label for="last-nm">Last Name </label>
-              <input type="text" id="last-nm" name="last-name" />
+              <input
+                type="text"
+                id="last-nm"
+                name="last-name"
+                placeholder="Doe"
+                required
+              />
             </div>
           </div>
 
           <div>
             <div class="email">
               <label for="email">Email </label
-              ><input type="email" id="email" name="email" />
+              ><input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="example@example.com"
+                required
+              />
             </div>
             <div class="phn-number">
               <label for="phone-number">Phone Number</label>
-              <input type="tel" id="phone-number" name="phone-number" />
+              <input
+                type="tel"
+                id="phone-number"
+                name="phone-number"
+                placeholder="123-456-7890"
+                required
+              />
             </div>
           </div>
 
           <div>
             <div class="password">
               <label for="passwrd">Password </label
-              ><input type="password" id="passwrd" name="password" />
+              ><input
+                type="password"
+                id="passwrd"
+                name="password"
+                placeholder="password"
+                required
+              />
             </div>
             <div class="confirm-password">
               <label for="confirm-passwrd">Confirm Password</label>
@@ -64,12 +97,14 @@
                 type="password"
                 id="confirm-passwrd"
                 name="confirm-password"
+                placeholder="password"
+                required
               />
             </div>
           </div>
         </div>
-        <div class="button">
-          <input type="button" value="Create Account" />
+        <div>
+          <button class="button" type="submit">Create Account</button>
         </div>
       </form>
     </section>
