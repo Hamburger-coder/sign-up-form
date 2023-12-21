@@ -143,3 +143,8 @@ a:active {
 a {
   text-decoration: none;
 }
+
+.inputs input:invalid {
+  outline: 2px solid rgb(255, 89, 89);
+  border-radius: 5px 5px 5px 5px;
+}
